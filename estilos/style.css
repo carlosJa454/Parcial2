@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle at 50% 50%, #e1ffff 0, #e2fffc 8.33%, #e2fef1 16.67%, #e0f1e7 25%, #dce4dd 33.33%, #d5d5d5 41.67%, #ccc6ce 50%, #c1b8c8 58.33%, #b4abc4 66.67%, #a5a1c1 75%, #9598be 83.33%, #8491bc 91.67%, #728bba 100%);
+}
+
+/*CREACION DEL MENU PEGAGOSO*/
+
+.banner{
+    width: 100%;
+    padding: 9rem 3rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0,5);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    background: url(../img/portada.jpg)
+}
+.banner h1{
+    color: #f1f1f1;
+    font-size: 45px;
+}
+.container{
+    max-width: 400;
+    width: 100%;
+    height: 70px;
+    background: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.item-options{
+    color: #f1f1f1;
+    margin:0 1.5rem;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.item-options:hover{
+    color:#696363;
+    font-size: 18px;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article{
+    width: 70%;
+}
+
+/*FIN DE LA CREACION DEL MENU PEGAGOSO*/
+
+footer{
+    background-color:rgba(133, 133, 133, 0.699);
+    height:100px;
+    width:100%;
+}
+
+.columnas-footer{
+    display:inline-block;
+    justify-content: center;
+    padding: 10px 10px;
+    margin-right: center;
+    align-items:center;
+   
+    
+}
+
+
+.columnas-footer a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.titulo{
+    color: rgba(248, 164, 9, 0.979);
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subtitulo{
+    color:rgba(223, 146, 4, 0.877) ;
+   
+}
+.imagen.subtitulo{
+    font-size: 30px;
+}
+.article2{
+    width: 55%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+    
+}
+.article2.subtitulo{
+    color:rgba(238, 119, 8, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: right;
+    margin-right: auto;
+    
+
+}
+
+.imagen{
+    text-align: right;
+    width: 90%;
+    margin-top: 20px;
+    margin-right: auto;
+    
+    
+}
+.imagen2{
+    text-align: left;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: auto;
+}
+.imagen2.subtitulo{
+    color:rgba(238, 119, 8, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+   
+}
+.info_imagen{
+    color:rgba(238, 119, 8, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50%;
+}
+.info_imagen2{
+    color:rgba(238, 119, 8, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50%;
+}
+.imagen3{
+    text-align: right;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: auto;
+}
+.info_imagen3{
+    color:rgba(238, 119, 8, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50%;
+}
+
+
+/*CREACION DEL FORMULARIO*/
+
+.form{
+    background-color: #fff;
+    margin:auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 /30%);
+    text-align: center;
+}
+.form_title{
+    font-size: 2rem;
+    margin-bottom: .5em;
+    
+}
+.form_paragraph{
+    font-weight: 300;
+}
+.form_link{
+    font-weight: 400;
+    color: #000;
+
+}
+.form_container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.form_group{
+    position: relative;
+    color: #575757;
+}
+.form_input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #575757;
+}
+.form_input:not(:placeholder-shown) + .form_label{
+    color: #4d4d46;
+}
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-12px)scale(.7);
+    transform-origin: left top;
+    color: #3866f2;
+
+}
+.form_label{
+    color:#575757;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform -5s, color .3s;
+
+}
+.form_submit{
+    background: #3866f2;
+    color:#fff;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border:none;
+    border-radius: .5em;
+    
+}
+.form_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #3866f2;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+
+}
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label{
+    transform: scale(1);
+
+}
+/*CREACION DE ALERTA PARA VALIDAR*/
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
+}
+@media(max-width:425px){
+    .form_title{
+        font-size: 1.8rem;
+    }
+}
+/*ESTILO DE LA API DE GOOGLE MAPS*/
+
+#map{
+    height: 500px;
+    width: 100%;
+}
+.recaptcha{
+    height: 100px;
+    width: 100px;
+}
